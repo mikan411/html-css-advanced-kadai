@@ -87,8 +87,10 @@ PC用のスタイル
   #menu-sp{
     float:right;
     padding: 0;
+    background-color: transparent;
+    border:none;
   }
-
+  
   #nav-sp{
     background-color: #ce933e;
     position: absolute;
@@ -112,6 +114,8 @@ PC用のスタイル
     position: absolute;
     top:20px;
     right: 20px;
+    background-color: transparent;
+    border:none;
   }
 
   #logo-sp{
@@ -122,7 +126,7 @@ PC用のスタイル
     display: block;
   }
 
-  #nav-sp a:limk{
+  #nav-sp a:link{
     color: #ffffff;
   }
 
@@ -136,6 +140,10 @@ PC用のスタイル
   }
 
   #nav-sp a:acitive{
+    color: #ffffff;
+  }
+
+  .meni{
     color: #ffffff;
   }
 
